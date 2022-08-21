@@ -1,0 +1,16 @@
+button {
+    font-size: 20px;
+    font-family: "font-family: Georgia, serif;";
+}
+
+.row {
+    padding: 10px;
+}
+
+h1, h2 {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+}

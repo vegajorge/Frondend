@@ -1,0 +1,48 @@
+<div class="container-fluid" *ngIf="enca">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-9">
+            <br> 
+            <br> 
+             <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <h4><label for="nombre">Foto perfil</label></h4>
+                    <input type="text" class="form-control" id="imagen" name="imagen" [(ngModel)]="enca.imagen" required>
+                </div>
+                <br>
+                <h4><label for="nombre">Nombre y Apellido</label></h4>
+                <div>
+                  <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="enca.nombre" required>
+            </div>
+            <br>
+             <div>
+                <input type="text" class="form-control" id="apellido" name="apellido" [(ngModel)]="enca.apellido" required>
+          </div>
+          <br>
+          <h4><label for="nombre">Profesion</label></h4>
+            <div>
+                    <input type="text" class="form-control" id="profecion" name="profecion" [(ngModel)]="enca.profecion" required>
+                </div>
+                <br> 
+                <div class="form-group">
+                <h4><label for="descripcion">Ubicacion</label></h4>
+                    <input type="text" class="form-control" id="ubicacion" name="ubicacion" [(ngModel)]="enca.ubicacion" required>
+                </div>
+                <br>
+                 <div class="form-group">
+                <h4><label for="descripcion">Acerca de</label></h4>
+                    <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="enca.descripcion" required>
+                </div>
+                <br>
+                 <button class="btn btn-dark">
+                    Actualizar
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="col-lg-1"></div>
+</div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container-fluid" *ngIf="ski">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-9">
+            <br> 
+            <br> 
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                   <h4><label for="nombre">Nombre de la Educacion</label></h4>
+                    <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="ski.nombre" required>
+                </div>
+                <br> 
+                <div class="form-group">
+                <h4><label for="porcentaje">Porcentaje de la habilidad</label></h4>
+                    <input type="text" class="form-control" id="porcentaje" name="porcentaje" [(ngModel)]="ski.porcentaje" required>
+                </div>
+                <br> 
+                <button class="btn btn-dark">
+                    Actualizar
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="col-lg-1"></div>
+</div>
+</div>

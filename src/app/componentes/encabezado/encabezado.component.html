@@ -1,0 +1,32 @@
+<div class="estilo-contenido1">
+  <div class="container-fluid">
+  <div class="imagen-banner"><img src="assets/img/fondoencabezado5.jpg"></div>
+      <div class="perfil-datos">
+      <div class="row">
+        <div class="col-3">
+        <div><img src={{persona.imagen}} class="img-fluid" id="imagen-perfil"></div>
+      </div>
+        <div class="col-9">
+          <div><h1><b>{{persona.nombre}} {{persona.apellido}} </b></h1></div>
+        <div><h2><b>{{persona.profecion}}</b></h2></div>
+        <div><b><h5>{{persona.ubicacion}}</h5></b></div>
+        </div>
+      </div>
+       </div>
+     </div>
+     </div>
+       <div class="estilo-contenido1">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-10"> 
+          <div><h2><b>Acerca de</b></h2></div>
+          <div><h5>{{persona.descripcion}}</h5></div>
+        </div> 
+         <div class="col-2">
+         <div *ngIf="isLogged">
+          <button class="btn btn-dark" routerLink="/editarencabezado/{{persona.id}}">
+          <i class="bi bi-pencil"></i></button>
+        </div>
+        </div>
+     </div>
+    </div>

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-md" style="background-color: #000000;">
+     <div class="container-fluid">
+      <div class="navbar-header">
+      <a class="navbar-brand">
+        <img id="log1" src="assets/img/logo.jpg">
+        <img id="log2"src="assets/img/logo2.jpg">
+      </a>
+       </div>
+        <div class="social">
+      <a href="https://www.facebook.com/vegajorge2012/"target="_blank"> <img src="assets/img/facebook.png" id="facebook" whidth="40px" height="40px"/> </a>
+      <a href="https://www.instagram.com/"target="_blank"> <img src="assets/img/insta.png" id="instagram"  whidth="40px" height="40px"/> </a>
+      <a href="https://web.telegram.org/k/"target="_blank"> <img src="assets/img/tele.png" id="telegram"  whidth="40px" height="40px"/> </a>
+      
+      <button type="button" class="btn btn-outline-secondary" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+     <button type="button" class="btn btn-outline-secondary" (click)="onLogOut()" *ngIf="isLogged">CERRAR</button>
+    </div>
+      </div> 
+     </nav>
+   </div>
+
+   

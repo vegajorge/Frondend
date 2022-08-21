@@ -1,0 +1,29 @@
+<section class="vh-100">
+  <div id="estilo">
+  <div class="container py-5 h-100">
+    <div class="row d-flex align-items-center justify-content-center h-100">
+      <div class="col-md-8 col-lg-7 col-xl-6">
+        <img src="/assets/img/loginusuario.png"
+          class="img-fluid" alt="Phone image">
+      </div>
+      <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+
+         <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+
+          <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 2px;">Inicio de Sesion</h3>
+          <div class="form-outline mb-4">
+            <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg" [(ngModel)]="nombreUsuario" name="nombreUsuario" required />
+            <label class="form-label" for="nombreUsuario"><h5>Usuario</h5></label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="password" id="password" class="form-control form-control-lg" [(ngModel)]="password" name="password" required />
+            <label class="form-label" for="password"><h5>Contraseña</h5> </label>
+          </div>
+           <button type="submit" class="btn btn-dark" data-toggle="button">Ingresar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</section> 
