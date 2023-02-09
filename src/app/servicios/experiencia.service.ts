@@ -8,7 +8,7 @@ import { Experiencia } from '../modelo/experiencia';
 })
 export class ExperienciaService {
 
-  expURL = 'https://backendargentina.herokuapp.com/experiencia/';
+  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/experiencia/';
 
   constructor(private httpClient: HttpClient) { }
 

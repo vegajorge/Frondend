@@ -8,7 +8,7 @@ import { Redes } from '../modelo/redes';
 })
 export class RedesService {
 
-   expURL = 'https://backendargentina.herokuapp.com/redes/';
+   expURL = 'https://backendarg-vegajorgeluis.koyeb.app/redes/';
   
     constructor(private httpClient: HttpClient) { }
   

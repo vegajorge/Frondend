@@ -7,7 +7,7 @@ import { Skills } from '../modelo/skills';
   providedIn: 'root'
 })
 export class SkillsService {
-  expURL = 'https://backendargentina.herokuapp.com/skills/';
+  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/skills/';
 
   constructor(private httpClient: HttpClient) { }
 

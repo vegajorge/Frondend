@@ -7,7 +7,7 @@ import { Proyectos } from '../modelo/proyectos';
   providedIn: 'root'
 })
 export class ProyectosService {
-  expURL = 'https://backendargentina.herokuapp.com/proyectos/';
+  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/proyectos/';
 
   constructor(private httpClient: HttpClient) { }
 
