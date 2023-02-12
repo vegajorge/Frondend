@@ -7,7 +7,7 @@ import { Skills } from '../modelo/skills';
   providedIn: 'root'
 })
 export class SkillsService {
-  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/skills/';
+  expURL = 'https://backendjorge.onrender.com/skills/';
 
   constructor(private httpClient: HttpClient) { }
 

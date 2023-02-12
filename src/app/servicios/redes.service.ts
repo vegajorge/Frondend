@@ -8,7 +8,7 @@ import { Redes } from '../modelo/redes';
 })
 export class RedesService {
 
-   expURL = 'https://backendarg-vegajorgeluis.koyeb.app/redes/';
+   expURL = 'https://backendjorge.onrender.com/redes/';
   
     constructor(private httpClient: HttpClient) { }
   

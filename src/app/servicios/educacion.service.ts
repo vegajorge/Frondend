@@ -7,7 +7,7 @@ import { Educacion } from '../modelo/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/educacion/';
+  expURL = 'https://backendjorge.onrender.com/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 

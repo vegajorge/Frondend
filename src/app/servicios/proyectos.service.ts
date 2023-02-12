@@ -7,7 +7,7 @@ import { Proyectos } from '../modelo/proyectos';
   providedIn: 'root'
 })
 export class ProyectosService {
-  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/proyectos/';
+  expURL = 'https://backendjorge.onrender.com/proyectos/';
 
   constructor(private httpClient: HttpClient) { }
 

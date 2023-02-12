@@ -8,7 +8,7 @@ import { Experiencia } from '../modelo/experiencia';
 })
 export class ExperienciaService {
 
-  expURL = 'https://backendarg-vegajorgeluis.koyeb.app/experiencia/';
+  expURL = 'https://backendjorge.onrender.com/experiencia/';
 
   constructor(private httpClient: HttpClient) { }
 

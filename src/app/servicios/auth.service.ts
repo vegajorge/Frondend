@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../modelo/nuevousuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://backendarg-vegajorgeluis.koyeb.app/auth/';
+  authURL = 'https://backendjorge.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
